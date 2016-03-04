@@ -1,99 +1,57 @@
 # Compiled Object files
-
 *.slo
-
 *.lo
-
 *.o
-
 *.obj
-
 
 .DS_Store
 
-
 # Precompiled Headers
-
 *.gch
-
 *.pch
 
-
 # Compiled Dynamic libraries
-
 *.so
-
 *.dylib
-
 *.dll
 
-
 # Fortran module files
-
 *.mod
 
-
 # Compiled Static libraries
-
 *.lai
-
 *.la
-
 *.a
-
 *.lib
 
-
 # Executables
-
 *.exe
-
 *.out
-
 *.app
-
 *.xcodeproj
 
-
 # cocos files
-
 /cocos2d/
-
 /cocosstudio/
-
 /proj.android/
-
 /proj.android-studio/
-
 /proj.ios_mac/
-
 /proj.linux/
-
 /proj.win8.1-universal/
-
 /proj.win10/
-
 /proj.win32/
-
 /.cocos-project.json
-
 /CMakeLists.txt
-
 /config.json
 
-
 SPH.ccs
-
 SPH.cfg
-
 SPH.udf
 
-
 DupDupGame.ccs
-
 DupDupGame.cfg
-
 DupDupGame.udf
+
 
 *.ccs
 *.cfg
