@@ -33,6 +33,9 @@ bool GameScene::init()
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
+	auto paraNode = ParallaxNode::create();
+	
+
     
     return true;
 }
