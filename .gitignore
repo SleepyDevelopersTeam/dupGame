@@ -43,3 +43,11 @@
 /.cocos-project.json
 /CMakeLists.txt
 /config.json
+
+SPH.ccs
+SPH.cfg
+SPH.udf
+
+DupDupGame.ccs
+DupDupGame.cfg
+DupDupGame.udf
