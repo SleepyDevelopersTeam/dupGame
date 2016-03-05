@@ -6,12 +6,23 @@
 #include "LevelStorage.hpp"
 
 LevelStorage* LevelStorage::instance=NULL;
+LevelStorageDestroyer LevelStorage::destroyer;
+
+LevelStorageDestroyer::~LevelStorageDestroyer()
+{
+    delete instance;
+}
+
+void LevelStorageDestroyer::initialize( LevelStorage* p ) {
+    instance = p;
+}
 
 LevelStorage* LevelStorage::getInstance()
 {
     if (instance==NULL)
     {
         instance = new LevelStorage;
+        destroyer.initialize(instance);
     }
     return instance;
 }
