@@ -35,7 +35,7 @@ bool GameScene::init()
 
 	auto paraNode = ParallaxNode::create();
 
-	/*auto background = Sprite::create("backgroundPara.png");
+	auto background = Sprite::create("backgroundPara.png");
 	paraNode->addChild(background, -1, Vec2(0.4f, 0), Vec2::ZERO);
 
 	auto middleLayer = Sprite::create("middlePara.png");
@@ -45,7 +45,7 @@ bool GameScene::init()
 	paraNode->addChild(topLayer, -1, Vec2(4.0f, 0), Vec2::ZERO);
 
 	this->addChild(paraNode);
-	*/
+	
     
     return true;
 }
