@@ -31,7 +31,6 @@ public:
 private:
     static LevelStorage* instance;
     static LevelStorageDestroyer destroyer;
-protected:
     ~LevelStorage() { }
     friend class LevelStorageDestroyer;
 };
