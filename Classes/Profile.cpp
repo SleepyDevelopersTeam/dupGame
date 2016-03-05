@@ -30,7 +30,7 @@ int Profile::getLastLevel() const
 
 void Profile::setLastLevel(int number)
 {
-	this->getLastLevel = number;
+	this->numberLastLevel = number;
 }
 
 void Profile::setMoney(int number)
